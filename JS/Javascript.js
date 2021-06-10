@@ -37,10 +37,19 @@ document.write(a) + (b);
 function mult1(p1, p2) {
     return p1 * p2 ;
 }
-document.getElementById("mult1").innerHTML=(p1, p2);
+document.getElementById("mult1").innerHTML= mult1(3, 4);
 
 
 function buttontext() {
   document.getElementById("buttontext").innerHTML = "Hello World";
 }
 
+function addition_Funtion() {
+  var addition = 2+2;
+  document.getElementById("Math").innerHTML = "2 + 2 =" + addition;
+}
+
+function subtraction_Funtion() {
+  var Subtraction = 5 - 2;
+  document.getElementById("Math").innerHTML = "5 - 2 =" + subtraction;
+}
