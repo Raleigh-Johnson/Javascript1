@@ -44,12 +44,3 @@ function buttontext() {
   document.getElementById("buttontext").innerHTML = "Hello World";
 }
 
-function addition_Funtion() {
-  var addition = 2+2;
-  document.getElementById("Math").innerHTML = "2 + 2 =" + addition;
-}
-
-function subtraction_Funtion() {
-  var Subtraction = 5 - 2;
-  document.getElementById("Math").innerHTML = "5 - 2 =" + subtraction;
-}
