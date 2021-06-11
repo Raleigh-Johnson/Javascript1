@@ -25,9 +25,9 @@ function division() {
       var math = (1+2) * 10 / 2 -5;
       document.getElementById("math").innerHTML = "1 plus 2 multiplied by 10 devided by 2 and subtract 5 = " + math;
 }
-  function modulus_Operator() {
-    var simple_Math = 25 % 6;
-    document.getElementById("Math5").innerHTML = "When you devide 25 by 6, you hve a remainder of: " + simple_Math;
+  function modulus() {
+    var modulus = 25 % 6;
+    document.getElementById("modulus").innerHTML = "25% of 6 is " + modulus;
 }
 function negative_Operator() {
     var x = 10 ;
