@@ -1,11 +1,6 @@
-alert("Hello, World");          //Alert before webpage loads
+alert("Hello, World");   //Alert before webpage loads
 window.alert("Hello, again.")
 document.write("Hello, once again")
-var X = "Hello, world."             ///Last alerts
-document.write (X);
-var A = "This is a string";         //String 
-document.write (A);
-document.write (A) + (X);
 const newString1 = "This is a string assigned to a variable.";
 console.log(newString1);
 function my_First_Function() {          //funtion
@@ -43,4 +38,8 @@ document.getElementById("mult1").innerHTML= mult1(3, 4);
 function buttontext() {
   document.getElementById("buttontext").innerHTML = "Hello World";
 }
+
+document.getElementById("pi").innerHTML = Math.PI;
+
+
 
