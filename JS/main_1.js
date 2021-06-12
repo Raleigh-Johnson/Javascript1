@@ -52,6 +52,29 @@ document.write(5 > 2 || 10 > 4)
 function not_Function() {
     document.getElementById("Not").innerHTML = !(20 > 10)
 }
+document.write(Bigger = (5 > 1) ? "Left is bigger":"Right is bigger");
+
+function vote_Function() {
+    var Age, Can_vote;
+    Age = document.getElementById("Age").value;
+    Can_vote = (Age < 18) ? "You cannot ":"You can ";
+    document.getElementById("vote").innerHTML = Can_vote + "register to vote.";
+}
+
+function Vehicle(Make, Modle, Year, Color) {
+    this.Vehicle_Make = Make;
+    this.Vehicle_Modle = Modle;
+    this.Vehicle_Year = Year;
+    this.Vehicle_Color = Color;
+}
+var Jack = new  Vehicle("Dodge", "Viper", 2021, "Red");
+var Emily = new Vehicle("Jeep", "Track Hawk", 2020,"Black");
+var Erick = new Vehicle("Nissan", "400Z",2021, "Yellow")
+function car_Function() {
+    document.getElementById("Keywords_and_Constructors").innerHTML =
+    "Erick drives a " + Erick.Vehicle_Color + "-colored " + Erick.Vehicle_Modle +
+    " manufactured in " + Erick.Vehicle_Year;
+}
 
 
 
