@@ -37,3 +37,19 @@ console.log(financial('1.23e+5'));
  const object1 = new MyNumberType(4);
 
  console.log(object1 + 3);
+ //END
+ //Countdown
+ function countdown() {
+     var seconds = document.getElementById("seconds").value;
+
+     function tick() {
+         seconds = seconds -1;
+         TimeRanges.innerHTML = seconds;
+         setTimeout(tick, 1000);
+         if(seconds == -1) {
+             alert("Time is up!");
+     }
+    
+        }
+        tick();
+ }
