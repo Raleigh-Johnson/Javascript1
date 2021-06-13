@@ -34,6 +34,18 @@ function Time_function() {
 }
 //End Greeting function
 
+//Concat()
+function full_Sentence() {
+    var one = "I just ";
+    var two = "ate a ";
+    var three = "Mofockin "
+    var four = "uh "
+    var five = "ham "
+    var six = "sandwich"
+    var whole_sentence = one.concat(two, three, four, five, six)
+    document.getElementById("Concatenate").innerHTML = whole_sentence;
+}
+
 
 //End Greeting function
 
