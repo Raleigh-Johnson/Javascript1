@@ -23,10 +23,6 @@ function placeXorO(squareNumber) {
         }
         return true;
     }
-    if (activePlayer === 'O') {
-    disableClick();
-    setTimeout(function () { computersTurn();}, 1000)
-    }
     function computersTurn() {
         let success = false;
         let pickASquare;
