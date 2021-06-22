@@ -11,7 +11,7 @@
 #totalPrice {
     width: 200px;
     height: 190px;
-    margin: 0 auto;
+    margin: 200px auto;
     float: right;
 }
 
@@ -24,6 +24,11 @@
     width: 200px;
     height: 200px;
     float: right;
+}
+.rright {
+    width: 200px;
+    height: 200px;
+    float: top;
 }
 
 #showText {
