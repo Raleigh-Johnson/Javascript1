@@ -16,7 +16,7 @@ function getReceipt() { //Function to total the orderr's total
         sizeTotal = 8;
     } else if (selectedSize === "Large Pizza") {
         sizeTotal = 10;
-    } else if (selectedSize === "Extra Large") {
+    } else if (selectedSize === "Extra Large Pizza") {
         sizeTotal = 12;
     }
     runningTotal = sizeTotal; // Running total without toppings and all of that
